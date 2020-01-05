@@ -1,0 +1,49 @@
+.top{position: relative; 
+    z-index:9;top:-100px;
+
+width:auto; background: #ea6e11; 
+ 
+padding:4px 6px;
+border-radius:2px; 
+
+font-size:10px; 
+color: white;  
+     }
+
+.prescrip{display: none;}
+.stick{z-index: 999 !important;}
+.top:hover{background:black; 
+
+text-decoration: none;
+    color: white; }
+.icon_box::before{
+     content: '';
+     display:inline-block;
+     width:20px;
+     height:20px;
+     margin-right:5px;
+     background-size: contain;
+     background-position:center;
+     background-repeat:no-repeat;
+}
+.men::before{background-image:url('men.png');}
+.women::before{background-image:url('girl.png');}
+.kid::before{background-image:url('kid.png');}
+
+@media(max-width:768px){
+    .top{position: static;
+        margin-bottom:50px !important; }
+}
+@media(max-width:768px){
+    .pres-wrap ul.pres-type li{
+        margin-top:20px;
+        width:100;
+        flex-basis: 100%;
+    }
+    .pres-wrap .table-wrap .table-inner td{
+            margin-right: 5px;
+    }
+     .pres-wrap .table-wrap .table-inner th{
+        line-height:1;
+     }
+}

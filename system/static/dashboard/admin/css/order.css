@@ -1,0 +1,3376 @@
+
+.pick-upgrade{
+
+
+
+	border-style: solid;
+
+
+
+	border-width: 1px;
+
+
+
+	border-color: rgb(233, 233, 233);
+
+
+
+	background-color: rgb(253, 253, 253);
+
+
+
+	padding: 10px 30px;
+
+
+
+}
+
+
+
+
+
+
+
+.pick-upgrade h3 {
+
+
+
+	margin: 10px 0;
+
+
+
+}
+
+
+
+
+
+
+
+.pick-upgrade ul {
+
+
+
+	display: flex;
+
+
+
+	align-items: center;
+
+
+
+	list-style: none;
+
+
+
+	padding: 0;
+
+
+
+	margin: 0;
+
+
+
+	justify-content: end;
+	flex-wrap: wrap;
+
+
+
+}
+
+
+
+
+
+
+
+.pick-upgrade ul li {
+
+
+
+	display: flex;
+
+
+
+	align-items: center;
+
+
+
+	justify-content: center;
+
+
+
+	flex-direction: column;
+
+
+
+	width: 23%;
+
+
+
+    margin: 0 1%;
+    margin-bottom: 15px;
+
+
+
+}
+
+
+
+
+
+
+
+.pick-upgrade ul li img {
+
+
+
+    width: 100%;
+
+
+
+}
+
+
+
+
+
+
+
+.pick-upgrade h3 {
+
+
+
+	font-size: 15px;
+
+
+
+	font-family: 'Roboto',sans-serif;
+
+
+
+	color: rgb(34, 34, 34);
+
+
+
+	font-weight: bold;
+
+
+
+	text-transform: uppercase;
+
+
+
+	line-height: 1.2;
+
+
+
+}
+
+
+
+
+
+
+
+.pick-upgrade h4 {
+
+
+
+	font-size: 14px;
+
+
+
+	font-family: 'Roboto',sans-serif;
+
+
+
+	color: rgb(134, 134, 134);
+
+
+
+	font-weight: bold;
+
+
+
+	line-height: 1.286;
+
+
+
+	margin-bottom: 10px;
+
+
+
+	margin-top: 10px;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.pick-upgrade h5{
+
+
+
+	font-size: 14px;
+
+
+
+	font-family: 'Roboto',sans-serif;
+
+
+
+	color: rgb(254, 60, 60);
+
+
+
+	line-height: 0.647;
+
+
+
+	font-weight: 500;
+
+
+
+}
+
+
+
+
+
+
+
+.pick-upgrade h5 span {
+
+
+
+	font-size: 12px;
+
+
+
+	line-height: 0.692;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.cake-type {
+
+
+
+	padding: 15px 0 0;
+
+
+
+}
+
+
+
+
+
+
+
+.cake-type ul {
+
+
+
+	display: flex;
+
+
+
+	list-style: none;
+
+
+
+	padding: 0;
+
+
+
+	margin: 0;
+
+
+
+	align-items: center;
+
+
+
+	flex-wrap: wrap;
+
+
+
+	margin-bottom: 10px;
+
+
+
+}
+
+
+
+.cake-type h5 {
+
+
+
+	font-size: 18px;
+
+
+
+	font-family: 'Roboto',sans-serif;
+
+
+
+	margin-bottom: 15px;
+
+
+
+}
+
+
+
+
+
+
+
+.cake-type ul li {
+
+
+
+	padding-right: 35px;
+
+
+
+	margin-bottom: 12px;
+
+
+
+}
+
+
+
+
+
+
+
+.cake-type ul li .flavour{
+
+
+
+	border-style: solid;
+
+
+
+	border-width: 1px;
+
+
+
+	border-color: rgb(233, 233, 233);
+
+
+
+	border-radius: 4px;
+
+
+
+	background-color: #fff;
+
+
+
+	width: 258px;
+
+
+
+	height: 49px;
+
+
+
+	font-size: 14px;
+
+
+
+	font-family: 'Roboto',sans-serif;
+
+
+
+	color: rgb(104, 104, 104);
+
+
+
+	padding: 10px 10px;
+
+
+
+}
+
+
+
+
+
+
+
+.cake-type ul li .eggless-box{
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+.cake-type ul li .heartshape-box{
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+.cake-checkbox {
+
+
+
+	display: block;
+
+
+
+	position: relative;
+
+
+
+	padding-left: 40px;
+
+
+
+	margin-bottom: 0px;
+
+
+
+	cursor: pointer;
+
+
+
+	-webkit-user-select: none;
+
+
+
+	-moz-user-select: none;
+
+
+
+	-ms-user-select: none;
+
+
+
+	user-select: none;
+
+
+
+	font-size: 16px;
+
+
+
+	font-family: 'Roboto',sans-serif;
+
+
+
+}
+
+
+
+
+
+
+
+/* Hide the browser's default checkbox */
+
+
+
+.cake-checkbox input {
+
+
+
+	position: absolute;
+
+
+
+	opacity: 0;
+
+
+
+	cursor: pointer;
+
+
+
+	height: 0;
+
+
+
+	width: 0;
+
+
+
+}
+
+
+
+
+
+
+
+/* Create a custom checkbox */
+
+
+
+.checkmark {
+
+
+
+	position: absolute;
+
+
+
+	top: 0;
+
+
+
+	left: 0;
+
+
+
+	height: 25px;
+
+
+
+	width: 25px;
+
+
+
+	bottom: 0;
+
+
+
+	margin: auto;
+
+
+
+	border: 2px solid #c7c7c7;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* When the checkbox is checked, add a blue background */
+
+
+
+.cake-checkbox input:checked ~ .checkmark {
+
+
+
+	border: 2px solid #c7c7c7;
+
+
+
+}
+
+
+
+
+
+
+
+/* Create the checkmark/indicator (hidden when not checked) */
+
+
+
+.checkmark:after {
+
+
+
+	content: "";
+
+
+
+	position: absolute;
+
+
+
+	display: none;
+
+
+
+}
+
+
+
+
+
+
+
+/* Show the checkmark when checked */
+
+
+
+.cake-checkbox input:checked ~ .checkmark:after {
+
+
+
+	display: block;
+
+
+
+}
+
+
+
+
+
+
+
+/* Style the checkmark/indicator */
+
+
+
+.cake-checkbox .checkmark:after {
+
+
+
+	left: 0;
+
+
+
+	top: 0;
+
+
+
+	right: 0;
+
+
+
+	bottom: 2px;
+
+
+
+	margin: auto;
+
+
+
+	width: 9px;
+
+
+
+	height: 17px;
+
+
+
+	border: solid #5bbb5e;
+
+
+
+	border-width: 0 3px 3px 0;
+
+
+
+	-webkit-transform: rotate(45deg);
+
+
+
+	-ms-transform: rotate(45deg);
+
+
+
+	transform: rotate(45deg);
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+.eggless-box .cake-checkbox .checkmark:after {
+
+
+
+	border-color: #5bbb5e;
+
+
+
+}
+
+
+
+
+
+
+
+.heartshape-box .cake-checkbox .checkmark:after {
+
+
+
+	border-color: #9a3432;
+
+
+
+}
+
+
+
+
+
+
+
+.eggless-box .cake-checkbox{
+
+
+
+	color: #5bbb5e;
+
+
+
+}
+
+
+
+
+
+
+
+.heartshape-box .cake-checkbox{
+
+
+
+	color: #9a3432;
+
+
+
+}
+
+
+
+
+
+
+
+.pro-delivery-detail p {
+
+
+
+	font-size: 14px;
+
+
+
+	font-family: 'Roboto',sans-serif;
+
+
+
+	color: rgb(104, 104, 104);
+
+
+
+	line-height: 1.286;
+
+
+
+	margin-bottom: 5px;
+
+
+
+}
+
+
+
+
+
+
+
+.pro-delivery-detail {
+
+
+
+	font-size: 14px;
+
+
+
+	font-family: 'Roboto',sans-serif;
+
+
+
+	color: rgb(104, 104, 104);
+
+
+
+	line-height: 1.286;
+
+
+
+	margin-bottom: 15px;
+
+
+
+}
+
+
+
+
+
+
+
+.pro-delivery-detail p a {
+
+
+
+	text-decoration: underline;
+
+
+
+	color: #009504;
+
+
+
+	padding-left: 5px;
+
+
+
+}
+
+
+
+
+
+
+
+.pro-delivery-detail a {
+
+
+
+	text-decoration: underline;
+
+
+
+    color: #009504;
+
+
+
+    padding-left: 5px;
+
+
+
+    
+
+
+
+}
+
+
+
+
+
+
+
+.pro-delivery-address a{
+
+
+
+	position: absolute;
+
+
+
+    right: 0;
+
+
+
+    top: 0;
+
+
+
+}
+
+
+
+
+
+
+
+.pro-delivery-address {
+
+
+
+    margin-top: 10px;
+
+
+
+}
+
+
+
+
+
+
+
+.pro-delivery-address label{
+
+
+
+	font-size: 14px;
+
+
+
+	font-family: 'Roboto',sans-serif;
+
+
+
+	color: rgb(104, 104, 104);
+
+
+
+	line-height: 1.286;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.pro-delivery-address .input-container {
+
+
+
+	position: relative;
+
+
+
+	margin-bottom: 12px;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.pro-delivery-address .icon {
+
+
+
+	color: #868686;
+
+
+
+	position: absolute;
+
+
+
+	font-size: 20px;
+
+
+
+}
+
+
+
+
+
+
+
+.pro-delivery-address .icon.fa-map-marker {
+
+
+
+	left: 20px;
+
+
+
+	z-index: 99;
+
+
+
+	display: flex;
+
+
+
+	align-items: center;
+
+
+
+	top: 13px;
+
+
+
+}
+
+
+
+
+
+
+
+.pro-delivery-address .icon.fa-times-circle {
+
+
+
+	right: 10px;
+
+
+
+	z-index: 99;
+
+
+
+	display: flex;
+
+
+
+	align-items: center;
+
+
+
+	top: 14px;
+
+
+
+}
+
+.pro-delivery-address .icon.fa-spinner {
+
+
+
+	right: 10px;
+
+
+
+	z-index: 99;
+
+
+
+	display: flex;
+
+
+
+	align-items: center;
+
+
+
+	top: 14px;
+
+
+
+}
+
+
+
+
+
+
+
+.pro-delivery-address .input-field {
+
+
+
+	width: 100%;
+
+
+
+	padding: 10px;
+
+
+
+	outline: none;
+
+
+
+	border-style: solid;
+
+
+
+	border-width: 1px;
+
+
+
+	border-color: rgb(233, 233, 233);
+
+
+
+	border-radius: 4px;
+
+
+
+	background-color: rgb(253, 253, 253);
+
+
+
+	height: 55px;
+
+
+
+	position: relative;
+
+
+
+	padding-left: 65px;
+
+
+
+	padding-right: 65px;
+
+
+
+	font-size: 16px;
+
+
+
+	font-family: 'Roboto',sans-serif;
+
+
+
+	color: rgb(119, 119, 119);
+
+
+
+}
+
+
+
+
+
+
+
+.error-address {
+
+
+
+	display: flex;
+
+
+
+	justify-content: space-between;
+
+
+
+}
+
+
+
+
+
+
+
+.error-address p.error1 {
+
+
+
+	margin-bottom: 15px;
+
+
+
+	font-size: 15px;
+
+
+
+	font-family: 'Raleway',sans-serif;
+
+
+
+	color: rgb(4, 141, 10);
+
+
+
+	line-height: 1.2;
+
+
+
+}
+
+
+
+
+
+
+
+.error-address p.error-pin {
+
+
+
+	margin-bottom: 15px;
+
+
+
+	font-size: 14px;
+
+
+
+	font-family: 'Roboto',sans-serif;
+
+
+
+	color: rgb(4, 141, 10);
+
+
+
+	font-weight: bold;
+
+
+
+	line-height: 1.286;
+
+
+
+}
+
+
+
+
+
+
+
+.delivery-date {
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+.delivery-date h3 {
+
+
+
+	font-size: 14px;
+
+
+
+	font-family: 'Roboto',sans-serif;
+
+
+
+	color: rgb(104, 104, 104);
+
+
+
+	line-height: 1.286;
+
+
+
+	margin-bottom: 10px;
+
+
+
+}
+
+
+
+
+
+
+
+.pick-upgrade ul li{
+
+
+
+	border: 2px solid #fdfdfd;
+
+
+
+	padding: 5px;
+
+
+
+}
+
+
+
+
+
+
+
+.out-of-stock{
+
+
+
+	opacity: 0.4;
+
+
+
+}
+
+
+
+
+
+
+
+.pick-upgrade ul li.active {
+
+
+
+    position: relative;
+
+
+
+    opacity: 1;
+
+
+
+    border: 2px solid #5bbb5e;
+
+
+
+}
+
+
+
+
+
+
+
+.pick-upgrade ul li.active:before {
+
+
+
+        content: "\f046";
+
+
+
+    position: absolute;
+
+
+
+    bottom: -15px;
+
+
+
+    margin: auto;
+
+
+
+    font-size: 18px;
+
+
+
+    color: #72c474;
+
+
+
+    font-family: 'FontAwesome';
+
+
+
+    background: #fff;
+
+
+
+}
+
+
+
+
+
+
+
+.pick-upgrade ul li.active h4 {
+
+
+
+    color: #5bbb5e;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.delivery-date ul.tabs{
+
+
+
+	margin: 0px;
+
+
+
+	padding: 0px;
+
+
+
+	list-style: none;
+
+
+
+	display: flex;
+
+
+
+	align-items: center;
+
+
+
+	border-bottom: 2px solid #9a3432;
+
+
+
+}
+
+
+
+.delivery-date ul.tabs li{
+
+
+
+	padding: 10px 15px;
+
+
+
+	cursor: pointer;
+
+
+
+	border-style: solid;
+
+
+
+	border-width: 1px;
+
+
+
+	border-color: rgb(210, 210, 210);
+
+
+
+	background-color: rgb(247, 247, 247);
+
+
+
+	width: 153px;
+
+
+
+	height: 56px;
+
+
+
+	font-size: 16px;
+
+
+
+	font-family: 'Roboto',sans-serif;
+
+
+
+	color: rgb(116, 116, 116);
+
+
+
+	text-transform: uppercase;
+
+
+
+	line-height: 1.125;
+
+
+
+	display: flex;
+
+
+
+	align-items: center;
+
+
+
+	justify-content: center;
+
+
+
+	margin-right: 10px;
+
+
+
+	border-bottom: 0;
+
+
+
+	border-top-left-radius: 4px;
+
+
+
+	border-top-right-radius: 4px;
+
+
+
+}
+
+
+
+
+
+
+
+.delivery-date ul.tabs li.current{
+
+
+
+	background-color: #9a3432;
+
+
+
+	color: #fff;
+
+
+
+}
+
+
+
+
+
+
+
+.delivery-date .tab-content{
+
+
+
+	display: none;
+
+
+
+	border-style: solid;
+
+
+
+	border-width: 1px;
+
+
+
+	border-color: rgb(233, 233, 233);
+
+
+
+	background-color: #fff;
+
+
+
+}
+
+
+
+
+
+
+
+.delivery-date .tab-content.current{
+
+
+
+	display: inherit;
+
+
+
+}
+
+
+
+
+
+
+
+.address-delivery-details {
+
+
+
+	padding: 25px 25px;
+
+
+
+}
+
+
+
+
+
+
+
+.address-delivery-details h3 {
+
+
+
+	font-size: 14px;
+
+
+
+	font-family: 'Roboto',sans-serif;
+
+
+
+	color: rgb(119, 119, 119);
+
+
+
+	line-height: 1.286;
+
+
+
+	display: flex;
+
+
+
+	align-items: center;
+
+
+
+	margin-bottom: 15px;
+
+
+
+}
+
+
+
+
+
+
+
+.address-delivery-details h3 span {
+
+
+
+	font-size: 16px;
+
+
+
+	font-family: 'Roboto',sans-serif;
+
+
+
+	color: rgb(34, 34, 34);
+
+
+
+	line-height: 1.125;
+
+
+
+	padding-left: 15px;
+
+
+
+}
+
+
+
+
+
+
+
+.delivery-detail-time-section ul {
+
+
+
+	list-style: none;
+
+
+
+	padding-left: 0;
+
+
+
+	margin: 0;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.delivery-detail-time-section {
+
+
+
+	padding-bottom: 0;
+
+
+
+}
+
+
+
+
+
+
+
+.delivery-detail-time-section ul li {
+
+
+
+
+
+
+
+	margin-bottom: 15px;
+
+
+
+}
+
+
+
+
+
+
+
+.delivery-detail-heading {
+
+
+
+	display: flex;
+
+
+
+	align-items: center;
+
+
+
+	margin-bottom: 10px;
+
+
+
+}
+
+
+
+
+
+
+
+.delivery-detail-heading .time-pattern {
+
+
+
+	font-size: 16px;
+
+
+
+	font-family: 'Roboto',sans-serif;
+
+
+
+	color: rgb(34, 34, 34);
+
+
+
+	line-height: 1.125;
+
+
+
+	width: 190px;
+
+
+
+	font-weight: 500;
+
+
+
+	margin: 0;
+
+
+
+}
+
+
+
+
+
+
+
+.delivery-detail-heading .radio input[type="radio"] {
+
+
+
+	position: absolute;
+
+
+
+	opacity: 0;
+
+
+
+}
+
+
+
+.delivery-detail-heading .radio input[type="radio"] + .radio-label:before {
+
+
+
+	content: '';
+
+
+
+	background: #ffffff;
+
+
+
+	border-radius: 100%;
+
+
+
+	border: 4px solid #3c3c3c;
+
+
+
+	display: inline-block;
+
+
+
+	width: 22px;
+
+
+
+	height: 22px;
+
+
+
+	position: relative;
+
+
+
+	top: -0.2em;
+
+
+
+	margin-right: 10px;
+
+
+
+	vertical-align: top;
+
+
+
+	cursor: pointer;
+
+
+
+	text-align: center;
+
+
+
+	transition: all 250ms ease;
+
+
+
+}
+
+
+
+.delivery-detail-heading .radio input[type="radio"]:checked + .radio-label:before {
+
+
+
+	background-color: #e1c007;
+
+
+
+	box-shadow: inset 0 0 0 4px #ffffff;
+
+
+
+	border: 2px solid #e1c007;
+
+
+
+}
+
+
+
+.delivery-detail-heading .radio input[type="radio"]:focus + .radio-label:before {
+
+
+
+	outline: none;
+
+
+
+	border-color: #e1c007;
+
+
+
+}
+
+
+
+.delivery-detail-heading .radio input[type="radio"]:disabled + .radio-label:before {
+
+
+
+	box-shadow: inset 0 0 0 4px #f4f4f4;
+
+
+
+	border-color: #b4b4b4;
+
+
+
+	background: #b4b4b4;
+
+
+
+}
+
+
+
+.delivery-detail-heading .radio input[type="radio"] + .radio-label:empty:before {
+
+
+
+	margin-right: 0;
+
+
+
+}
+
+
+
+
+
+
+
+.delivery-detail-heading .time-price {
+
+
+
+	padding-left: 15px;
+
+
+
+	font-size: 20px;
+
+
+
+	font-family: 'Roboto',sans-serif;
+
+
+
+	color: rgb(254, 60, 60);
+
+
+
+	font-weight: bold;
+
+
+
+	line-height: 1em;
+
+
+
+	display: flex;
+
+
+
+	align-items: flex-start;
+
+
+
+}
+
+
+
+
+
+
+
+.delivery-detail-heading .time-price span{
+
+
+
+	font-size: 15px;
+
+
+
+	font-family: 'Roboto',sans-serif;
+
+
+
+	color: rgb(254, 60, 60);
+
+
+
+	line-height: 1em;
+
+
+
+	font-weight: 400;
+
+
+
+	padding-right: 3px;
+
+
+
+}
+
+
+
+
+
+
+
+.delivery-detail-content {
+
+
+
+	padding-left: 20px;
+
+
+
+	display: none;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.delivery-detail-heading .radio input[type="radio"]:checked .delivery-detail-content{
+
+
+
+	display: block;
+
+
+
+}
+
+
+
+
+
+
+
+.delivery-detail-content .time-slot {
+
+
+
+	font-size: 14px;
+
+
+
+	font-family: 'Raleway',sans-serif;
+
+
+
+	color: rgb(4, 141, 10);
+
+
+
+	line-height: 1.286;
+
+
+
+	display: flex;
+
+
+
+	align-items: center;
+
+
+
+	margin-bottom: 10px;
+
+
+
+	font-weight: 500;
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+.delivery-detail-content .time-slot img{
+
+
+
+	padding-right: 8px;
+
+
+
+}
+
+
+
+
+
+
+
+.delivery-detail-content .del-time-slot p {
+
+
+
+	font-size: 13px;
+
+
+
+	font-family: 'Roboto',sans-serif;
+
+
+
+	color: rgb(119, 119, 119);
+
+
+
+	line-height: 1.385;
+
+
+
+	margin-bottom: 8px;
+
+
+
+}
+
+
+
+
+
+
+
+.delivery-detail-content .del-time-slot ul {
+
+
+
+	list-style: none;
+
+
+
+	margin: 0;
+
+
+
+	padding: 0;
+
+
+
+	display: flex;
+
+
+
+	align-items: center;
+
+
+
+}
+
+
+
+
+
+
+
+.delivery-detail-content .del-time-slot ul li {
+
+
+
+	padding: 0;
+
+
+
+	margin-bottom: 0;
+
+
+
+}
+
+
+
+
+
+
+
+.delivery-detail-content .del-time-slot ul li .btn{
+
+
+
+	border-style: solid;
+
+
+
+	border-width: 1px;
+
+
+
+	border-color: rgb(210, 210, 210);
+
+
+
+	border-radius: 4px;
+
+
+
+	background-color: rgb(247, 247, 247);
+
+
+
+	width: 133px;
+
+
+
+	height: 46px;
+
+
+
+	font-size: 15px;
+
+
+
+	font-family: 'Roboto',sans-serif;
+
+
+
+	color: rgb(116, 116, 116);
+
+
+
+	line-height: 1.2;
+
+
+
+	display: flex;
+
+
+
+	align-items: center;
+
+
+
+	justify-content: center;
+
+
+
+	margin-right: 8px;
+
+
+
+}
+
+
+
+
+
+
+
+.delivery-detail-content .del-time-slot ul li .btn.active-green{
+
+
+
+	background-color: rgb(0, 149, 4);
+
+
+
+	color: #fff;
+
+
+
+}
+
+.address-delivery-details h2.courierDeliveryAmt {
+    font-size: 17px;
+}
+
+.address-delivery-details #pnlEventCalendar {
+    width:100%;
+}
+
+.address-delivery-details .calender-date {
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.msg-img-section{
+
+
+
+	display: flex;
+
+
+
+	align-items: center;
+
+
+
+	justify-content: space-between;
+
+
+
+	margin: 15px 0;
+
+
+
+}
+
+
+
+
+
+
+
+.msg-img-section .input-field{
+
+
+
+	position: relative;
+
+
+
+}
+
+
+
+
+
+
+
+.msg-img-section .input-field .img-text1{
+
+
+
+	position: absolute;
+
+
+
+	top: 0;
+
+
+
+	height: 100%;
+
+
+
+	left: 18px;
+
+
+
+	display: flex;
+
+
+
+	align-items: center;
+
+
+
+}
+
+
+
+
+
+
+
+.msg-img-section .input-field .msg-cake {
+
+
+
+	border-style: solid;
+
+
+
+	border-width: 1px;
+
+
+
+	border-color: rgb(233, 233, 233);
+
+
+
+	border-radius: 4px;
+
+
+
+	background-color: #fff;
+
+
+
+	width: 385px;
+
+
+
+	height: 49px;
+
+
+
+	font-size: 16px;
+
+
+
+	font-family: 'Roboto',sans-serif;
+
+
+
+	color: rgb(119, 119, 119);
+
+
+
+	line-height: 1.125;
+
+
+
+	font-weight: 500;
+
+
+
+	padding-left: 50px;
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.msg-img-section .upload-cake {
+
+
+
+	position: relative;
+
+
+
+	overflow: hidden;
+
+
+
+	display: inline-block;
+
+
+
+}
+
+
+
+
+
+
+
+.msg-img-section .upload-cake .btn {
+
+
+
+	border: 2px solid rgb(78, 78, 78);
+
+
+
+	border-radius: 4px;
+
+
+
+	background-color: rgb(78, 78, 78);
+
+
+
+	width: 197px;
+
+
+
+	height: 47px;
+
+
+
+	font-size: 16px;
+
+
+
+	font-family: 'Roboto',sans-serif;
+
+
+
+	color: #fff;
+
+
+
+	font-weight: 600;
+
+
+
+	line-height: 1.125;
+
+
+
+	display: flex;
+
+
+
+	align-items: center;
+
+
+
+	justify-content: center;
+
+
+
+	cursor: pointer;
+
+
+
+	transition: all 0.5s;
+
+
+
+}
+
+
+
+
+
+
+
+.msg-img-section .upload-cake .btn:hover {
+
+
+
+	border: 2px solid #9a3432;
+
+
+
+	background-color: #fff;
+
+
+
+	color: #9a3432;
+
+
+
+}
+
+
+
+
+
+
+
+.msg-img-section .upload-cake .btn .fa{
+
+
+
+	padding-right: 15px;
+
+
+
+}
+
+
+
+
+
+
+
+.msg-img-section .upload-cake input[type=file] {
+
+
+
+	font-size: 100px;
+
+
+
+	position: absolute;
+
+
+
+	left: 0;
+
+
+
+	top: 0;
+
+
+
+	opacity: 0;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.bag-buy-section {
+
+
+
+	margin-bottom: 10px;
+
+
+
+}
+
+
+
+
+
+
+
+.bag-buy-section ul {
+
+
+
+	list-style: none;
+
+
+
+	padding: 0;
+
+
+
+	margin: 0;
+
+
+
+	display: flex;
+
+
+
+	align-items: center;
+
+
+
+	justify-content: space-between;
+
+
+
+}
+
+
+
+
+
+
+
+.bag-buy-section ul li a {
+
+
+
+	height: 100px;
+
+
+
+	display: flex;
+
+
+
+	align-items: center;
+
+
+
+	justify-content: center;
+
+
+
+	border-radius: 4px;
+
+
+
+	width: 285px;
+
+
+
+	height: 66px;
+
+
+
+	font-size: 20px;
+
+
+
+	font-family: 'Roboto',sans-serif;
+
+
+
+	color: #fff;
+
+
+
+	font-weight: bold;
+
+
+
+	line-height: 0.9;
+
+
+
+	transition: all 0.5s;
+
+
+
+}
+
+
+
+
+
+
+
+.bag-buy-section ul li a img {
+
+
+
+	padding-right: 10px;
+
+
+
+}
+
+
+
+
+
+
+
+.bag-buy-section ul li a.add-bag{
+
+
+
+	background: #9a3432;
+
+
+
+}
+
+
+
+
+
+
+
+.bag-buy-section ul li a.buy-btn{
+
+
+
+	background: #ebb307;
+
+
+
+}
+
+
+
+
+
+
+
+.bag-buy-section ul li a.add-bag:hover{
+
+
+
+	background: rgb(111, 36, 35);
+
+
+
+}
+
+
+
+
+
+
+
+.bag-buy-section ul li a.buy-btn:hover{
+
+
+
+	background: rgb(185, 140, 0);
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.special-gift {
+
+
+
+	/*background: #f2f2f2;*/
+
+
+
+	padding: 0;
+
+
+
+	/*height: 645px;
+
+
+
+	overflow: hidden;
+
+
+
+	overflow-y: scroll;*/
+
+
+
+}
+
+
+
+
+
+
+
+.special-gift h3{
+
+
+
+	font-size: 24px;
+
+
+
+	font-family: 'Roboto', sans-serif;
+
+
+
+	color: rgb(34, 34, 34);
+
+
+
+	font-weight: bold;
+
+
+
+	line-height: 1.2;
+
+
+
+	margin-bottom: 15px;
+
+
+
+}
+
+
+
+
+
+
+
+.hidden{
+
+
+
+	display: none;
+
+
+
+}
+
+
+
+/*image gallery*/
+
+
+
+.image-checkbox {
+
+
+
+	cursor: pointer;
+
+
+
+	box-sizing: border-box;
+
+
+
+	-moz-box-sizing: border-box;
+
+
+
+	-webkit-box-sizing: border-box;
+
+
+
+	margin-bottom: 0;
+
+
+
+	outline: 0;
+
+
+
+}
+
+
+
+.image-checkbox input[type="checkbox"] {
+
+
+
+	display: none;
+
+
+
+}
+
+
+
+
+
+
+
+.image-checkbox-checked {
+
+
+
+	border-color: #4783B0;
+
+
+
+}
+
+
+
+.image-checkbox .check-icon {
+
+
+
+	position: absolute;
+
+
+
+	color: #4A79A3;
+
+
+
+	padding: 9px;
+
+
+
+	top: 30px;
+
+
+
+	left: 15px;
+
+
+
+	display: flex;
+
+
+
+	align-items: center;
+
+
+
+	justify-content: center;
+
+
+
+	border: 1px solid #797979;
+
+	background: #fff;
+
+
+
+}
+
+
+
+.image-checkbox .fa {
+
+
+
+	position: absolute;
+
+
+
+	color: #4A79A3;
+
+
+
+}
+
+
+
+.image-checkbox-checked .fa {
+
+
+
+	display: block !important;
+
+
+
+}
+
+
+
+
+
+
+
+.special-gift ul {
+
+
+
+	list-style: none;
+
+
+
+	padding: 0;
+
+
+
+	display: flex;
+
+
+
+	align-items: center;
+
+
+
+	justify-content: center;
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.special-gift ul li {
+
+position: relative;
+    width: 100%;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+    padding: 10px 0;
+    border: 1px solid #f2f2f2;
+
+}
+
+.special-gift .slick-slide{
+	margin: 0 5px !important;
+}
+
+
+
+
+
+
+
+.special-gift ul li img {
+
+
+
+	margin-bottom: 30px;
+
+
+
+}
+
+
+
+
+
+
+
+.special-gift ul li p {
+
+
+
+	font-size: 14px;
+
+
+
+	font-family: 'Roboto',sans-serif;
+
+
+
+	color: rgb(119, 119, 119);
+
+
+
+	line-height: 1.2;
+
+
+
+	margin-bottom: 10px;
+
+
+
+}
+
+
+
+
+
+
+
+.special-gift ul li p.giftPrice {
+
+
+
+	font-size: 18px;
+
+
+
+	font-family: 'Roboto',sans-serif;
+
+
+
+	color: #9a3432;
+
+
+
+	line-height: 1.2;
+
+
+
+	margin-bottom: 15px;
+
+
+
+}
+
+
+
+
+
+
+
+.special-gift ul li label.image-checkbox {
+
+
+
+	width: 100%;
+
+
+
+	text-align: center;
+
+
+
+}

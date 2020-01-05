@@ -1,0 +1,59 @@
+span.multiselect-native-select{position:relative}span.multiselect-native-select select{border:0!important;clip:rect(0 0 0 0)!important;height:1px!important;margin:-1px -1px -1px -3px!important;overflow:hidden!important;padding:0!important;position:absolute!important;width:1px!important;left:50%;top:30px}.multiselect-container{position:absolute;list-style-type:none;margin:0;padding:0}.multiselect-container .input-group{margin:5px}.multiselect-container>li{padding:0}.multiselect-container>li>a.multiselect-all label{font-weight:700}.multiselect-container>li.multiselect-group label{margin:0;padding:3px 20px 3px 20px;height:100%;font-weight:700}.multiselect-container>li.multiselect-group-clickable label{cursor:pointer}.multiselect-container>li>a{padding:0}.multiselect-container>li>a>label{margin:0;height:100%;cursor:pointer;font-weight:400;padding:3px 20px 3px 40px}.multiselect-container>li>a>label.radio,.multiselect-container>li>a>label.checkbox{margin:0}.multiselect-container>li>a>label>input[type=checkbox]{margin-bottom:5px}.btn-group>.btn-group:nth-child(2)>.multiselect.btn{border-top-left-radius:4px;border-bottom-left-radius:4px}.form-inline .multiselect-container label.checkbox,.form-inline .multiselect-container label.radio{padding:3px 20px 3px 40px}.form-inline .multiselect-container li a label.checkbox input[type=checkbox],.form-inline .multiselect-container li a label.radio input[type=radio]{margin-left:-20px;margin-right:0}
+
+
+.multiselect-native-select button {
+    background-color: #f88331;
+    color: #fff;
+    border: 1px solid #f88331;
+}
+
+.multiselect-native-select .btn-default:hover {
+    background-color: #f88331;
+    color: #fff;
+    border: 1px solid #f88331;
+}
+
+span.multiselect-native-select span.input-group-addon {}
+
+span.multiselect-native-select input.form-control.multiselect-search {
+    height: 43px;
+    border: 1px solid #eee;
+}
+
+span.multiselect-native-select span.input-group-addon {
+    border: 1px solid #eee;
+    background-color: #153858;
+    color: #fff;
+}
+
+span.multiselect-native-select button.btn.btn-default.multiselect-clear-filter {}
+
+span.multiselect-native-select button.btn.btn-default.multiselect-clear-filter {
+    border: 1px solid #eee;
+}
+span.multiselect-native-select .multiselect-container {
+    position: relative;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.multiselect-native-select .btn-default.active, .btn-default:active, .open>.dropdown-toggle.btn-default {
+    color: #333;
+    background-color: #f88331 !important;
+    border-color: #f88331 !important;
+}
+span.multiselect-native-select .btn-group {
+    width: 100% !important;
+    text-align:left;
+}
+span.multiselect-native-select button.multiselect.dropdown-toggle.btn.btn-default {
+    text-align: left;
+}
+.multiselect-native-select [type="checkbox"]:not(:checked), [type="checkbox"]:checked {
+    position: absolute;
+    left: 35px;
+}
+span.multiselect-native-select  ul.multiselect-container.dropdown-menu {
+    max-height: 250px;
+    overflow-x: hidden;
+}
